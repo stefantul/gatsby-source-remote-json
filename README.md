@@ -5,9 +5,9 @@ Used inside a Gatsby json transformer plugin such as gatsby-transformer-json lik
 
 gatsby-config.js:
 
-`gatsby-transformer-json`,
+\`gatsby-transformer-json\`,
     {
-      resolve: `gatsby-source-remote-json`,
+      resolve: \`gatsby-source-remote-json\`,
       options: {
         url: 'https://s3.amazonaws.com/[your-bucket]/stuff.json' //your remote url
       }
